@@ -10,9 +10,8 @@ import {
   validatorCompiler,
 } from 'fastify-type-provider-zod'
 import { env } from './env'
+import { accessInviteLinkRoute } from './routes/access-invite-link'
 import { subscribeToEventRoute } from './routes/subscribe-to-event-route'
-// validação: o formato do dado. ex: email formato válido
-// serialização: transformar o dado para o formato que o cliente espera. ex: serializa a senha
 
 const app = fastify().withTypeProvider<ZodTypeProvider>()
 
@@ -41,6 +40,7 @@ app.get('/hello', () => {
 })
 
 app.register(subscribeToEventRoute)
+app.register(accessInviteLinkRoute)
 
 app.listen({ port: env.PORT }).then(() => {
   console.log('Server is running on port ', env.PORT)
