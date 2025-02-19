@@ -1,3 +1,5 @@
+### inscrição (sem indicação)
+
 POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
@@ -6,11 +8,26 @@ Content-Type: application/json
   "email": "joaodamiao@gmail.com"
 }
 
+### inscrição (com indicação)
+
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+  "name": "Maria Aparecida 2",
+  "email": "madiadejoao2@gmail.com",
+  "referrerId": "2c13aa3a-33b1-4a7d-948a-22f7fdba8d39"
+}
+
 ###
 
-GET http://localhost:3333/invites/idandre123
+GET http://localhost:3333/invites/2c13aa3a-33b1-4a7d-948a-22f7fdba8d39
 
 
 ### 
 
-GET http://localhost:3333/subscribers/idandre123/ranking/clicks
+GET http://localhost:3333/subscribers/2c13aa3a-33b1-4a7d-948a-22f7fdba8d39/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/2c13aa3a-33b1-4a7d-948a-22f7fdba8d39/ranking/count
