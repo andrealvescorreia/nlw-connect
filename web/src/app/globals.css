@@ -18,4 +18,6 @@
 
   --font-heading: var(--fonte-oxanium);
   --font-sans: var(--fonte-montserrat);/* font-sans: fonte padrão aplicada nos textos*/
+
+  --radius-xl: 0.625rem;/* 10px (0.625 * 16). Subescreve o radius-xl do tailwind*/
 }
