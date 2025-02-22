@@ -61,11 +61,7 @@ export default function SubscriptionForm() {
             <InputIcon>
               <Mail />
             </InputIcon>
-            <InputField
-              placeholder="E-mail"
-              type="email"
-              {...register('email')}
-            />
+            <InputField placeholder="E-mail" {...register('email')} />
           </InputRoot>
           {errors?.email && (
             <p className="font-semibold text-xs text-danger">
