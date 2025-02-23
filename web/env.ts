@@ -1,7 +1,1 @@
-import './envConfig.ts'
-
-const env = {
-  apiUrl: process.env.API_URL || "http://localhost:3333/",
-}
-
-export default env
+export const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3333/"

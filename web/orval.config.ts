@@ -1,15 +1,15 @@
 import { defineConfig } from 'orval'
-import env from './env'
+import { apiUrl } from './env';
 
 export default defineConfig({
   api: {
-    input: `${env.apiUrl}/docs/json`,
+    input: `${apiUrl}/docs/json`,
     output: {
       target: './src/http/api.ts',
       client: 'fetch',
       httpClient: 'fetch',
       clean: true, // apaga o arquivo anterior ao gerar um novo.
-      baseUrl: env.apiUrl,
+      baseUrl: apiUrl,
       override: {
         fetch: {
           includeHttpResponseReturnType: false, // por padrão o orval pega os status code (ex: 200, 403, etc). Essa opção desativa isso.
