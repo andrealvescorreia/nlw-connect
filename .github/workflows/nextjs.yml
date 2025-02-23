@@ -1,6 +1,3 @@
-Para corrigir o problema na etapa de "Setup Node" e levar em conta que seu projeto Next.js está dentro da pasta `web`, você deve ajustar os caminhos e comandos no seu arquivo de workflow. Veja a configuração ajustada abaixo:
-
-```yaml
 name: Deploy Next.js site to Pages
 
 on:
@@ -85,6 +82,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```
-
-As principais mudanças foram adicionar `working-directory: web` nas etapas onde os comandos precisam ser executados dentro da pasta `web` e ajustar os caminhos dos arquivos. Isso deve resolver o problema com a configuração do Node e permitir que o workflow funcione corretamente.
