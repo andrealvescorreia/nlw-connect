@@ -4,7 +4,9 @@
 *Uma plataforma de inscrição para um evento fictício com sistema de indicação e ranking.*
 
 ## Sobre o Projeto
-Esta aplicação foi desenvolvida durante a 19ª edição do NLW da Rocketseat. O objetivo é criar uma página de inscrição para um evento fictício, onde os usuários podem gerar um link de convite para compartilhar com amigos. Aqueles que acumularem mais indicações aparecem no ranking top 3 e concorrem a prêmios exclusivos.
+Esta aplicação foi desenvolvida durante a 19ª edição do NLW da Rocketseat. O objetivo foi criar uma página de inscrição para um evento fictício, onde os usuários podem gerar um link de convite para compartilhar com amigos. Aqueles que acumularem mais indicações aparecem no ranking top 3 e concorrem a prêmios exclusivos.
+
+A página pode ser acessada [aqui](https://nlw-connect.on.shiper.app/invites/0ed14984-337e-42c5-9660-6310817b0302).
 
 ## Tecnologias Utilizadas
 ### Frontend
@@ -38,7 +40,7 @@ npm install
 npm run dev
 ```
 Crie um arquivo `.env` na raiz do projeto `web` e adicione:
-```
+```env
 NEXT_PUBLIC_API_URL="http://localhost:3333"
 ```
 
@@ -57,7 +59,7 @@ npm run db:migrate
 npm run dev
 ```
 Crie um arquivo `.env` na raiz do projeto `server` e adicione:
-```
+```env
 PORT=3333
 WEB_URL="http://localhost:3000"
 POSTGRES_URL="postgresql://docker:docker@localhost:5432/nlw-connect"
@@ -70,7 +72,7 @@ REDIS_URL="redis://localhost:6379"
 A documentação da API está disponível em:
 [https://nlw-connect.on.shiper.app/docs](https://nlw-connect.on.shiper.app/docs)
 
-## Deploy
+## Plataformas utilziadas para o Deploy
 - **Frontend:** [Vercel](https://vercel.com/)
 - **Backend:** [Shiper](https://shiper.app/)
 - **Banco de Dados:** [Neon.tech](https://neon.tech/)
