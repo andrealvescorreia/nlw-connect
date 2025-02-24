@@ -73,10 +73,10 @@ A documentação da API está disponível em:
 [https://nlw-connect.on.shiper.app/docs](https://nlw-connect.on.shiper.app/docs)
 
 ## Plataformas utilziadas para o Deploy
-- **Frontend:** [Vercel](https://vercel.com/)
-- **Backend:** [Shiper](https://shiper.app/)
-- **Banco de Dados:** [Neon.tech](https://neon.tech/)
-- **Cache:** [Upstash](https://upstash.com/)
+- **Frontend em NextJS:** [Vercel](https://vercel.com/)
+- **API Backend NodeJS:** [Shiper](https://shiper.app/)
+- **Banco de Dados PostgreSQL:** [Neon.tech](https://neon.tech/)
+- **Cache em Redis:** [Upstash](https://upstash.com/)
 
 ---
 
