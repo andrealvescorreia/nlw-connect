@@ -1,6 +1,6 @@
 # NLW Connect
 
-![NLW Connect](page.png)  
+[![NLW Connect](page.png)](https://nlw-connect.on.shiper.app/invites/0ed14984-337e-42c5-9660-6310817b0302)  
 *Uma plataforma de inscrição para um evento fictício com sistema de indicação e ranking.*
 
 ## Sobre o Projeto
