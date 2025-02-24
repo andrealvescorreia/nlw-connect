@@ -80,5 +80,5 @@ A documentação da API está disponível em:
 
 ---
 
-Feito com 💜 durante o NLW pela Rocketseat 🚀
+Feito com 💜 durante o NLW da Rocketseat 🚀
 
