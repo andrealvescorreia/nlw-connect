@@ -1,7 +1,7 @@
 # NLW Connect
 
-![NLW Connect](https://your-image-url.com/banner.png)  
-*Uma plataforma de inscrição para eventos fictícios com sistema de indicação e ranking.*
+![NLW Connect](page.png)  
+*Uma plataforma de inscrição para um evento fictício com sistema de indicação e ranking.*
 
 ## Sobre o Projeto
 Esta aplicação foi desenvolvida durante a 19ª edição do NLW da Rocketseat. O objetivo é criar uma página de inscrição para um evento fictício, onde os usuários podem gerar um link de convite para compartilhar com amigos. Aqueles que acumularem mais indicações aparecem no ranking top 3 e concorrem a prêmios exclusivos.
